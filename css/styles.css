@@ -1,7 +1,13 @@
 h1 {
     color: yellow;
+    text-align: center;
   }
 
-  h1 {
+  h2 {
     color: orange;
+    margin: 0cm 2cm 0cm;
+  }
+
+  h3 {
+    margin: 1cm 3cm 2cm;
   }
