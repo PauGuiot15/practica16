@@ -13,6 +13,7 @@ h1 {
 
     background-color: #5fd2ff;
     color: black;
+    font-family: sans;
     padding: 10px;
     font-weight: bold;
     border: 3px solid rgb(75, 189, 255);
@@ -23,6 +24,7 @@ h1 {
 
     background-color: #dfff6d;
     border: 3px solid rgb(206, 255, 28);
+    font-family: sans;
     padding: 2px 16px;
     font-weight: bold;
     text-align: left;
@@ -32,25 +34,37 @@ h1 {
   h3 {
 
     border: 1px solid black;
+    background-color:  rgb(205, 241, 74);
+    font-family: sans;
     padding: 15px 20px 3px 10px;
+    text-decoration: none;
   }
 
   img {
 
     max-width: 100%;
-    background-color: white;
-    box-shadow: 9px 19px rgb(255, 0, 0), 0 15px 12px rgba(9, 255, 0, 0.22);
-    
+    background-color: rgb(100, 250, 0);
+    box-shadow: 0 9px 19px rgba(0, 0, 0, 0.322), 0 15px 12px rgba(211, 255, 12, 0.438);
+   
 }
 
 li {
   
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
-  background-color: yellowgreen;
-  padding: 8xp;
-  margin: 4px;
-  list-style-type: none;
+  font-family: sans;
+  background-color:  rgb(206, 255, 28);
+  padding: 10xp;
+  margin: 20px;
+  list-style-type: square;
   border-radius: 5px;
   transition: transform .2s;
+}
+
+.nopun {
+  list-style-type: none;
+}
+
+.centre {
+  text-align: center;
 }
