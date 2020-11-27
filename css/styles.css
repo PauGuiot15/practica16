@@ -1,13 +1,16 @@
 html {
+
     width: 60em;
     margin: 0 auto;
 }
 
 body {
+
     margin: 0;
 }
 
 h1 {
+
     background-color: #5fd2ff;
     color: black;
     padding: 10px;
@@ -17,6 +20,7 @@ h1 {
   }
 
   h2 {
+
     background-color: #dfff6d;
     border: 3px solid rgb(206, 255, 28);
     padding: 2px 16px;
@@ -26,7 +30,27 @@ h1 {
   }
 
   h3 {
-    
+
     border: 1px solid black;
     padding: 15px 20px 3px 10px;
   }
+
+  img {
+
+    max-width: 100%;
+    background-color: white;
+    box-shadow: 9px 19px rgb(255, 0, 0), 0 15px 12px rgba(9, 255, 0, 0.22);
+    
+}
+
+li {
+  
+  color: white;
+  font-weight: bold;
+  background-color: yellowgreen;
+  padding: 8xp;
+  margin: 4px;
+  list-style-type: none;
+  border-radius: 5px;
+  transition: transform .2s;
+}
